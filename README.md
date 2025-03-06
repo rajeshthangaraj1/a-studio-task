@@ -1,4 +1,4 @@
-# AI Connect - Smarter Network Planning for the Future
+# A Studio Task
 
 This project is a Retrieval-Augmented Generation (RAG) system designed to assist users in querying datasets related to mobile phones and company policies. It leverages a vector database for dataset embeddings and features a conversational AI assistant powered by Groq's LLaMA 3.1 open-source instruct model
 ## Features
@@ -55,7 +55,8 @@ This project is a Retrieval-Augmented Generation (RAG) system designed to assist
     GROQ_API_KEY = "your-groq-api-key-here"
     LOG_PATH = "./logs"
     HUGGINGFACE_API_TOKEN="your-huggingface-api-token"
-    USERNAME="your-username-here"
+    USER_NAME="your-username-here"
+    PASSWORD="your-password-here"
     VECTOR_DB_PATH_DB="vectordb"
     ```
    

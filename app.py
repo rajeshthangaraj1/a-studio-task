@@ -1,16 +1,15 @@
+from dotenv import load_dotenv
 import logging
 import streamlit as st
 import os
-from dotenv import load_dotenv
 from file_handler import FileHandler
 from chat_handler import ChatHandler
-
 
 # Load environment variables
 load_dotenv()
 
 # Static credentials for login
-USERNAME = os.environ.get("USERNAME")
+USERNAME = os.environ.get("USER_NAME")
 PASSWORD = os.environ.get("PASSWORD")
 
 # Configure logging
@@ -75,8 +74,8 @@ if not st.session_state["logged_in"]:
         }
         </style>
         <div>
-            <div class="title">Welcome to AI Connect</div>
-            <div class="subtitle">Smarter Network Planning for the Future</div>
+            <div class="title">Welcome to A Studio Chatbot</div>
+            <div class="subtitle">Smart mobile and policy bot</div>
         </div>
         """,
         unsafe_allow_html=True,
